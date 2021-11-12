@@ -1,0 +1,60 @@
+team-row{
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+
+    background-color: var(--list-item);
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: var(--list-item-tint);
+    }
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+
+    &>div:first-child{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    &>button-icon{
+        padding: 0;
+        background-color: transparent;
+        opacity: 0;
+        flex-shrink: 0;
+    }
+
+    &:hover>button-icon{
+        opacity: 0.5;
+        background-color: transparent;
+
+        &:hover{
+            opacity: 1;
+        }
+    }
+}
+
+.team-row-name{
+    font-weight: bold;
+}
+.team-row-details {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 5px; 
+    font-size: smaller;
+    
+    &>div{
+        white-space: nowrap;
+    }
+
+    &>.team-row-players{
+        margin-right: 50px;
+    }
+
+    &>.team-row-club {
+        width: 100%;
+    }
+}

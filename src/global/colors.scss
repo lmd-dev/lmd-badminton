@@ -1,0 +1,71 @@
+:root {
+  --background: #161314;
+
+  --primary: #ff3860;
+  --primary-rgb: 255,56,96;
+  --primary-contrast: #ffffff;
+  --primary-contrast-rgb: 255,255,255;
+  --primary-shade: #e03154;
+  --primary-tint: #ff4c70;
+
+  --secondary: #7c51f0;
+  --secondary-rgb: 124,81,240;
+  --secondary-contrast: #ffffff;
+  --secondary-contrast-rgb: 255,255,255;
+  --secondary-shade: #6d47d3;
+  --secondary-tint: #8962f2;
+
+  --tertiary: #52ff8b;
+  --tertiary-rgb: 82,255,139;
+  --tertiary-contrast: #000000;
+  --tertiary-contrast-rgb: 0,0,0;
+  --tertiary-shade: #48e07a;
+  --tertiary-tint: #63ff97;
+
+  --list-item: rgba(0, 0, 0, 0.3);
+  --list-item-tint: rgba(0, 0, 0, 0.25);
+
+  --success: #2dd293;
+  --success-rgb: 45,210,147;
+  --success-contrast: #000000;
+  --success-contrast-rgb: 0,0,0;
+  --success-shade: #28b981;
+  --success-tint: #42d79e;
+
+  --warning: #ff810a;
+  --warning-rgb: 255,129,10;
+  --warning-contrast: #000000;
+  --warning-contrast-rgb: 0,0,0;
+  --warning-shade: #e07209;
+  --warning-tint: #ff8e23;
+
+  --danger: #f74040;
+  --danger-rgb: 247,64,64;
+  --danger-contrast: #ffffff;
+  --danger-contrast-rgb: 255,255,255;
+  --danger-shade: #d93838;
+  --danger-tint: #f85353;
+
+  --dark: #222428;
+  --dark-rgb: 34,36,40;
+  --dark-contrast: #ffffff;
+  --dark-contrast-rgb: 255,255,255;
+  --dark-shade: #1e2023;
+  --dark-tint: #383a3e;
+
+  --medium: #92949c;
+  --medium-rgb: 146,148,156;
+  --medium-contrast: #ffffff;
+  --medium-contrast-rgb: 255,255,255;
+  --medium-shade: #808289;
+  --medium-tint: #9d9fa6;
+
+  --light: #f4f5f8;
+  --light-rgb: 244,245,248;
+  --light-contrast: #000000;
+  --light-contrast-rgb: 0,0,0;
+  --light-shade: #d7d8da;
+  --light-tint: #f5f6f9;
+
+  --input: #0c0c0c;
+}

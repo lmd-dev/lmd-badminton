@@ -1,0 +1,113 @@
+button-icon {
+  display: inline-flex;
+  padding: 10px;
+  width: fit-content;
+  background-color: var(--primary);
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+
+  &:hover {
+    background-color: var(--primary-tint);
+  }
+
+  &.danger {
+    background-color: var(--danger);
+
+    &:hover {
+      background-color: var(--danger-tint);
+    }
+  }
+
+  &.success {
+    background-color: var(--success);
+
+    &:hover {
+      background-color: var(--success-tint);
+    }
+  }
+
+  &.top {
+    flex-direction: column;
+
+    &>.button-icon-icon {
+      margin-bottom: 10px;
+
+      &.no-margin {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &.left {
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 10px 2px 2px;
+
+    &>.button-icon-icon {
+      margin-right: 10px;
+    }
+  }
+
+  &>.button-icon-icon {
+    padding: 17px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+
+    &.users {
+      background-image: url(/assets/button-icons/users.svg);
+    }
+
+    &.options {
+      background-image: url(/assets/button-icons/options.svg);
+    }
+
+    &.products {
+      background-image: url(/assets/button-icons/products.svg);
+    }
+
+    &.colors {
+      background-image: url(/assets/button-icons/colors.svg);
+    }
+
+    &.disconnect {
+      background-image: url(/assets/button-icons/disconnect.svg);
+    }
+
+    &.add {
+      background-image: url(/assets/button-icons/add.svg);
+    }
+
+    &.team {
+      background-image: url(/assets/button-icons/add.svg);
+    }
+
+    &.bookmark {
+      background-image: url(/assets/button-icons/bookmark.svg);
+    }
+
+    &.back {
+      background-image: url(/assets/button-icons/back.svg);
+    }
+
+    &.remove {
+      background-image: url(/assets/button-icons/remove.svg);
+    }
+
+    &.gift {
+      background-image: url(/assets/button-icons/gift.svg);
+    }
+
+    &.heart {
+      background-image: url(/assets/button-icons/heart.svg);
+    }
+  }
+
+  &>.button-icon-label {
+    color: #fff;
+    text-transform: uppercase;
+  }
+}

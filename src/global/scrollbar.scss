@@ -1,0 +1,13 @@
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-track{
+  border-left: solid 10px transparent;
+  border-right: solid 5px rgba(0, 0, 0, 0.7);
+}
+
+::-webkit-scrollbar-thumb{
+  border-left: solid 10px transparent;
+  border-right: solid 5px rgba(255, 255, 255, 0.5);
+}

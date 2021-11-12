@@ -1,0 +1,22 @@
+input, select{
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid var(--dark);
+  font-size: inherit;
+  background-color: var(--input);
+  color: var(--light);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+  &>label {
+    margin-bottom: 2px;
+  }
+
+  &:last-child{
+    margin-bottom: 0;
+  }
+}

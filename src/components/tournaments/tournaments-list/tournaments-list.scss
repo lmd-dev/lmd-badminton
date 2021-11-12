@@ -1,0 +1,18 @@
+tournaments-list{
+  width: 400px;
+  max-height: 60%;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+
+  overflow-y: auto;
+
+  &>* {
+    margin-bottom: 10px;
+    display: block;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
